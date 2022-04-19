@@ -1,0 +1,66 @@
+#issMap{
+    height: 300px;
+    
+}
+.heading-1{
+    
+    text-align: center;
+    margin: 4px;
+    font-size:14px;
+    line-height: 14px;
+}
+.heading-2{
+    
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.explanation{
+
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 25px;
+    border: 2px black;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    width: 50%;
+  
+}
+.Iss{
+    text-align: center;
+    
+}
+.info-button{
+ border-radius: 10px;
+ border: 2px solid #73AD21;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ padding: 10px;
+ width: 175px;
+ height: 65px;
+ line-height: 16px;
+}
+.Lat-Long{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 25px;
+    padding-top: 25px;
+    width: 75px;
+    height: 65px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+.empty{
+    padding: 15px;
+}
+.empty-2{
+    padding:15px;
+}

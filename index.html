@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=\, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <link rel ="stylesheet" href="style.css" >
+        <script src="/script.js" defer></script> 
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    
+    <title> ISS</title>
+    </head>
+    <body style="background-color:white">
+       
+        <div class="heading-1"> 
+             <h4> Where is the ISS? </h4>
+        </div>
+        <div class="heading-2"> 
+             <h3> What is the Iss first of All? <br /> </h2>
+         </div>
+         <div class="explanation"> 
+            <h4 class="Iss"> ISS = International Space Station. </h4> 
+            <h4 > The International Space Station is a large aircrafts that orbits the Earth.
+                It is home to many Austronauts where many countries work together to gain information 
+                about how livivng in microgravity for a longtime affects the human body. <br /> 
+                <a href='https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-the-iss-58.html'target="_blank">
+                    <button class="info-button">
+                        Click Here For More Information
+                    </button>
+                </a> </h4>
+        </div>
+        <div class="empty"> 
+
+        </div>
+        <div class="Lat-Long"> 
+            <p> latitude: <span id="lat"></span><br /> 
+                longitude: <span id="lon"></span> 
+             </p>
+        </div>
+    
+           
+    <div class="empty-2"> 
+
+    </div>
+      <div id="issMap"> 
+
+      </div>
+
+  
+   </body>
+
+</html>
